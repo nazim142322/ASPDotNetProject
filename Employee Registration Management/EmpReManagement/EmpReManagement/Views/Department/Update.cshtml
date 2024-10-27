@@ -1,0 +1,43 @@
+﻿@model EmpReManagement.ViewModel.DepartmentViewModel;
+@{
+    ViewData["Title"] = "Update Department";
+}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-3">
+            <!--for if depratment already exits-->
+            <partial name="_Notification"/>
+            <!-- Department Details Form -->
+            <form asp-controller="Department" asp-action="Update" method="post">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    Update Department
+                </div>
+                <div class="card-body">                    
+                        <div class="mb-3 row">
+                            <label for="departmentId" class="col-sm-4 col-form-label">Department ID</label>
+                            <div class="col-sm-6">
+                            <input asp-for="DepartmentId" class="form-control" id="departmentId" readonly>
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="departmentName" class="col-sm-4 col-form-label">Department Name</label>
+                            <div class="col-sm-6">
+                                <input asp-for="Name"  class="form-control" id="departmentName">
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                        </div>                    
+                </div>
+                <div class="card-footer text-start">
+                    <a asp-controller="Department" asp-action="Index" class="btn btn-secondary btn-sm w-25">Back to List</a>
+                    <button type="submit" class="btn btn-primary btn-sm w-25">Update</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>   
+</div>
+
+ @section scripts {
+     <partial name="_validationscriptspartial" />
+ }

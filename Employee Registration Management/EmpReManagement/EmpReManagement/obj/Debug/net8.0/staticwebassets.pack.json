@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EmpReManagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EmpReManagement.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\00feaf5e-30ff-4d6c-96b7-0ee608a55ea5_pic.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\00feaf5e-30ff-4d6c-96b7-0ee608a55ea5_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\03a5248c-fbe2-409d-8f56-115f5723ba27_portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\03a5248c-fbe2-409d-8f56-115f5723ba27_portfolio-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\0c9c4592-634d-44f6-b5e0-c8e46f13b81e_printer repair.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\0c9c4592-634d-44f6-b5e0-c8e46f13b81e_printer repair.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\3ebecc35-daf4-43a1-8eb7-9f3a7fc1cba5_pic.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\3ebecc35-daf4-43a1-8eb7-9f3a7fc1cba5_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\3f410f31-240b-4716-8371-003b4a1ff8d3_pic.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\3f410f31-240b-4716-8371-003b4a1ff8d3_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\40aa64b3-5da6-4cb0-90bc-316f0ec05d1a_pexels-iriser-1366957.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\40aa64b3-5da6-4cb0-90bc-316f0ec05d1a_pexels-iriser-1366957.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\570680fa-e07e-47a9-8dea-fb9404ec51e1_portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\570680fa-e07e-47a9-8dea-fb9404ec51e1_portfolio-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\61899413-3f62-4ceb-9b24-609ef7de2dc2_pic.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\61899413-3f62-4ceb-9b24-609ef7de2dc2_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\80367b2b-22d0-486a-92fc-4aadd04b2811_pic.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\80367b2b-22d0-486a-92fc-4aadd04b2811_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\83a9eacf-f974-4f79-bfb5-d9d48b790741_portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\83a9eacf-f974-4f79-bfb5-d9d48b790741_portfolio-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\86fb0ca8-1cf0-4602-8d3c-d09dd427a2a9_portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\86fb0ca8-1cf0-4602-8d3c-d09dd427a2a9_portfolio-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\8d649dc9-9d90-4ecf-a917-7a28771c86dd_pic.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\8d649dc9-9d90-4ecf-a917-7a28771c86dd_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\9d9ccd59-943b-4f03-95d9-6a5a95e114b2_printer repair.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\9d9ccd59-943b-4f03-95d9-6a5a95e114b2_printer repair.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\a2651cbc-ef41-4438-b44c-7e5694aecb02_printerrepair indehradun.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\a2651cbc-ef41-4438-b44c-7e5694aecb02_printerrepair indehradun.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\b4deb76b-33bf-470e-a6f5-c39547112115_quote.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\b4deb76b-33bf-470e-a6f5-c39547112115_quote.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\b7c959b2-a172-42c3-904b-e944e068a6bf_quote.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\b7c959b2-a172-42c3-904b-e944e068a6bf_quote.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\b96b34e4-8d5f-4de4-b94e-0e6c872ed30a_portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\b96b34e4-8d5f-4de4-b94e-0e6c872ed30a_portfolio-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\c56ac4bd-55cf-44aa-8b71-41e65f2e4d39_pexels-iriser-1366957.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\c56ac4bd-55cf-44aa-8b71-41e65f2e4d39_pexels-iriser-1366957.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\ca4fb250-8d27-4701-b2ba-17df74788b12_pexels-iriser-1366957.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\ca4fb250-8d27-4701-b2ba-17df74788b12_pexels-iriser-1366957.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\d545e6e8-b4bc-49fa-b0b2-a2954d3aec61_new.png",
+      "PackagePath": "staticwebassets\\EmpImages\\d545e6e8-b4bc-49fa-b0b2-a2954d3aec61_new.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\dc57a4ec-03cf-4f32-bdde-0a161fe285b0_DummyImage.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\dc57a4ec-03cf-4f32-bdde-0a161fe285b0_DummyImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\e0ccb0d5-0d17-4285-a79f-ffd568821617_portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\e0ccb0d5-0d17-4285-a79f-ffd568821617_portfolio-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\e46cff51-e133-497b-b064-6e77439ed283_pic.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\e46cff51-e133-497b-b064-6e77439ed283_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\e78eeb39-af43-4954-96eb-a230ebdbddeb_pic.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\e78eeb39-af43-4954-96eb-a230ebdbddeb_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\js\\site.js",
+      "PackagePath": "staticwebassets\\EmpImages\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASPDotNet Projects\\Employee Registration Management\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EmpReManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EmpReManagement.props",
+      "PackagePath": "build\\EmpReManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EmpReManagement.props",
+      "PackagePath": "buildMultiTargeting\\EmpReManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EmpReManagement.props",
+      "PackagePath": "buildTransitive\\EmpReManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

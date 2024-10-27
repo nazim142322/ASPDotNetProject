@@ -1,0 +1,115 @@
+﻿@model EmpReManagement.ViewModel.EmployeeViewModel
+@{
+    ViewData["Title"] = "Add";
+}
+<style>
+    /* Remove outline and box-shadow for all input elements */
+   select.form-control:focus, 
+   input.form-control:focus,
+   textarea.form-control:focus
+   {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+    span{
+      font-size:12px!important;
+    }
+
+    .bg-white{
+        border-top: 8px solid #0B5ED7 !important;
+        border-radius: 12px 12px 0 0;
+    }
+</style>
+<div class="container" style="box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+    <div class="row p-4">
+        <div class="col-md-6 mx-auto">            
+            <partial name="_Notification"/>
+        </div>
+    </div>
+    <div class="row" >
+        <div class="col-md-6 mx-auto bg-white" style="padding:30px;">
+            <h5 class="mb-5 text-decoration-underline" style="text-underline-offset: 5px;">Add New Employee</h5>
+            <form asp-controller="Employee" asp-action="Add" method="post" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label asp-for="FirstName" class="form-label fw-bold"></label>
+                    <input asp-for="FirstName" class="form-control" autofocus />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="LastName" class="form-label fw-bold"></label>
+                    <input asp-for="LastName" class="form-control"/>
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="DateOfBirth" class="form-label fw-bold" id="datepicker"></label>
+                    <input asp-for="DateOfBirth" class="form-control" />
+                    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Gender" class="form-label fw-bold">Gender</label>
+                    <div class="d-flex">
+                        <div class="form-check px-4">
+                            <input type="radio" asp-for="Gender" value="male" class="form-check-input" id="Male">
+                            <label class="form-check-label fw-bold" for="Male">Male</label>
+                            <span asp-validation-for="Gender" class="d-block text-danger"></span>
+                        </div>
+                        <div class="form-check px-4">
+                            <input type="radio" asp-for="Gender" value="female" class="form-check-input" id="Female">
+                            <label class="form-check-label fw-bold" for="Female">Female</label>
+                            <span asp-validation-for="Gender" class="d-block text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label fw-bold"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class=" d-block text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="PhoneNumber" class="form-label fw-bold"></label>
+                    <input asp-for="PhoneNumber" class="form-control" />
+                    <span asp-validation-for="PhoneNumber" class=" d-block text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Address" class="form-label fw-bold"></label>
+                    <textarea asp-for="Address" class="form-control" rows="3"></textarea>
+                    <span asp-validation-for="Address" class=" d-block text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="DepartmentId" class="form-label fw-bold"></label>
+                    <select asp-for="DepartmentId" asp-items="@ViewBag.departments" class="form-control">
+                        <option value="">Select Department</option>
+                    </select>
+                    <span asp-validation-for="DepartmentId" class=" d-block text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Photo" class="form-label fw-bold"></label>
+                   <input asp-for="Photo" class="form-control"/>
+                   <span asp-validation-for="Photo" class="d-block text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input type="checkbox" asp-for="IsActive" class="form-check-input" checked />
+                        <label asp-for="IsActive" class="form-check-label fw-bold"> </label>
+                        <span asp-validation-for="IsActive" class=" d-block text-danger"></span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <input type="submit" class="btn btn-primary w-100" value="Save" />
+                </div>
+            </form>           
+        </div>
+    </div>
+</div>
+
+@* Inline Scripts *@
+@* @section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}  *@
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+@* <input asp-for="DateOfBirth" type="date" class="form-control" value="@Model.DateOfBirth.ToString("yyyy-MM-dd")" /> *@

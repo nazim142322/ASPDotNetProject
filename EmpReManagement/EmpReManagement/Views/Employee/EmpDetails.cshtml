@@ -1,0 +1,120 @@
+﻿@model EmpReManagement.ViewModel.EmployeeDetailsVeiwModel
+@{
+    ViewData["Title"] = "Employee Details";
+}
+<style>
+    th, tr{
+        font-size:14px;
+    } 
+      
+</style>
+<!-- record update notification -->
+<partial name="_Notification" />
+<div id="content">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <!-- Employee Details Card -->
+                <div class="card" style="border-radius: 12px 12px 0 0;; overflow:hidden">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h6>Employee Details</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 pb-3 text-center">
+                                <!-- Display Employee Image -->
+                                <img src="~/EmpImages/@Model.ImagePath" class="img-fluid rounded" alt="Employee Image" style="width:150px">
+                            </div>
+                            <div class="col-md-8">
+                                <!-- Employee Information Table -->
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <th>Employee ID:</th>
+                                            <td>@Model.EmployeeId</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Full Name:</th>
+                                            <td>@Model.FullName</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Date of Birth:</th>
+                                            <td>@Model.DateOfBirth</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Gender:</th>
+                                            <td>@Model.Gender</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Email:</th>
+                                            <td>@Model.Email</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Phone Number:</th>
+                                            <td>@Model.PhoneNumber</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Address:</th>
+                                            <td>@Model.Address</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Active Status:</th>
+                                            <td>
+                                                <span class="badge p-2 @(Model.IsActive ? "bg-success" : "bg-danger")">
+                                                    @(Model.IsActive ? "Active" : "DeActive")
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Department:</th>
+                                            <td>@Model.DepartmentName</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- Buttons for Back and Update -->
+                        <div class="row py-2" id="noprint">
+                            <div class="col text-center">
+                                <a onclick="history.back()" class="btn btn-secondary btn-sm">
+                                    <i class="bi-arrow-left"> </i>Back
+                                </a>
+                                <a asp-action="Update" asp-controller="Employee" asp-route-empId="@Model.EmployeeId" class="btn btn-primary btn-sm">
+                                    <i class="bi-pencil"> </i> Update
+                                </a>
+                                <a href="javascript:void(0)" onclick="confirmDelete('@Model.EmployeeId')" class ="btn btn-danger btn-sm">
+                                    <i class="bi bi-trash"></i> Delete
+                                </a>
+                                <a class="btn btn-info btn-sm" title="Print" onclick="printDetails()">
+                                    <i class="bi bi-printer"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    //for print
+    function printDetails() {
+    let btn = document.getElementById('noprint');
+        btn.style.display = "none";
+    let content = document.getElementById('content').innerHTML;
+    let body = document.body.innerHTML;
+        document.body.innerHTML = content;    
+        window.print();        
+        document.body.innerHTML = body;       
+        window.location.reload(); // Reloads from cache
+        //window.location.reload(true); // Reloads from server, bypassing cache
+        btn.style.display = "block";       
+    }
+    //for delete record confirmation
+    function confirmDelete(empId){
+        if (confirm("Are you sure want to delete this record")) {
+          window.location.href = `DeleteRecord?empId=${empId}`;
+        }
+        //alert(`Employee/DeleteRecord?empId=${empId}`);
+    }
+</script>

@@ -1,0 +1,90 @@
+﻿@model List<EmpReManagement.Models.Department>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/print.css" asp-append-version="true" />
+    <title>Department Consolidated Report</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        span{
+            font-size:14px;
+            
+            padding:4px 8px;
+            background-color:green;
+            color:white;
+            border-radius:4px;
+            cursor:pointer;
+            letter-spacing:1.3px;
+        } 
+       button{
+           padding:3px 16px;
+       }
+     
+      </style>
+</head>
+<body>
+    <button onclick="history.back()">Back</button>
+    <span onclick="window.print()">Print</span>
+    <h2>Department Consolidated Report </h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" >Dept ID</th>
+                <th rowspan="2">Department Name</th>
+                <th colspan="6">Employee Details</th>
+            </tr>
+            <tr>                
+                <th>Emp Name</th>
+                <th>Gender</th>
+                <th>Email</th>
+                <th>Phone No</th>
+                <th>Address</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var department in Model)
+            {
+                // Calculate rowspan based on the number of employees in the department
+                int employeeCount = department.Employees.Count;
+                bool firstRow = true; // Track if it's the first row for the department
+
+                foreach (var employee in department.Employees)
+                {
+                    <tr>
+                        @if (firstRow)
+                        {
+                            <td rowspan="@employeeCount">@department.DepartmentId</td>
+                            <td rowspan="@employeeCount">@department.Name</td>
+                            firstRow = false; // After the first row, this will become false
+                        }
+                        <td>@employee.FullName</td> <!-- Display each employee's name in separate rows -->  
+                        <td>@employee.Gender</td>
+                        <td>@employee.Email</td>
+                        <td>@employee.PhoneNumber</td>
+                        <td>@employee.Address</td>
+                        <td>@(employee.IsActive? "Active": "Not Active")</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</body>
+</html>
+

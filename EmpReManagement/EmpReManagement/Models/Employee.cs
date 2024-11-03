@@ -24,7 +24,7 @@ namespace EmpReManagement.Models
         [ForeignKey("Department")]
         public int DepartmentId { get; set; } //foreign key
 
-        //[JsonIgnore] // Prevents circular reference during serialization
+        [JsonIgnore] // Prevents circular reference during serialization
         public Department Departments { get; set; }//reference navigation property
     }
 }

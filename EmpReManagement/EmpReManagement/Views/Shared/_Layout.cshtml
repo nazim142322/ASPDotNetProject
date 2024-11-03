@@ -30,6 +30,9 @@
             transition: width 0.1s ease-in-out; /* Smooth transition */
            
         }
+        li{
+            font-size:14px;
+        }
     </style>
 </head>
 <body>
@@ -43,7 +46,7 @@
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                         <li class="nav-item">
                             <a asp-controller="Home" asp-action="Index" class="nav-link align-middle px-0 text-white">
-                                <i class="fs-4 bi bi-house-fill"></i><span class="ms-1 d-none d-sm-inline">Home</span>
+                                <i class="fs-4 bi bi-house-fill"></i><span class="ms-1 d-none d-sm-inline">Dashborad</span>
                             </a>
                         </li>
                         <li>
@@ -52,10 +55,13 @@
                             </a>
                             <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                                 <li class="w-100">
-                                    <a asp-controller="Employee" asp-action="Index" class="nav-link px-0 text-white">Emp List</a>
+                                    <a asp-controller="Employee" asp-action="Index" class="nav-link px-0 text-white">Employee List</a>
                                 </li>
                                 <li>
-                                    <a asp-controller="Employee" asp-action="Add" class="nav-link px-0 text-white"> Add employee </a>
+                                    <a asp-controller="Employee" asp-action="Add" class="nav-link px-0 text-white"> Add Employee </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="ImportEmployee" asp-action="ImportEmployee" class="nav-link px-0 text-white"> Import Employee </a>
                                 </li>
                             </ul>
                         </li>
@@ -69,6 +75,9 @@
                                 </li>
                                 <li>
                                     <a asp-controller="Department" asp-action="Add" class="nav-link px-0 text-white"> Add Department </a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Department" asp-action="ImportDepartment" class="nav-link px-0 text-white"> Import Department </a>
                                 </li>
                                 <li>
                                     <a asp-controller="Department" asp-action="DepartmentConsolidateReport" class="nav-link px-0 text-white"> Consolidated Report </a>

@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Import Employees";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6"> 
+            @{
+                if (TempData["EmpImportError"]!=null)
+                {
+                    <p>@TempData["EmpImportError"]</p>
+                }
+            }
+            <h6>Import Excel File</h6>
+            <form asp-controller="ImportEmployee" asp-action="ImportEmployee" method="post" enctype="multipart/form-data">
+                <label class="form-label">Select File</label>
+                <input type="file" name="EmpExclFile" class="form-control mb-2" accept=".csv, .xls, .xlsx" autofocus required />
+                <input type="submit" class="btn btn-success btn-sm" value="Upload" />
+            </form>
+        </div>
+    </div>
+
+</div>

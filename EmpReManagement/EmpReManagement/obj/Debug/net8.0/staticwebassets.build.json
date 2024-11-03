@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EH2dCWCxrCzHUBPbVT1m/r9JWqNCyHiP6CB/Y2Smy6s=",
+  "Hash": "t8U5UMedZcWcebeXS9yDaBiw+VM5ghj81RTxK8dMbi8=",
   "Source": "EmpReManagement",
   "BasePath": "_content/EmpReManagement",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\EmpImages\\27d8b882-127f-4f68-bbf3-f4b40165a314_6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\35b1aca7-66b6-4ed2-85aa-b86894ed9f5b_3.png",
+      "SourceId": "EmpReManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\",
+      "BasePath": "_content/EmpReManagement",
+      "RelativePath": "EmpImages/35b1aca7-66b6-4ed2-85aa-b86894ed9f5b_3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\EmpImages\\35b1aca7-66b6-4ed2-85aa-b86894ed9f5b_3.png"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\3aacc5be-4041-427a-8323-dd1e3d3d1507_7.jpg",

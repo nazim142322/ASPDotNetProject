@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3245AACD-3B83-4A95-8F02-45362AB29BC2}|EmpReManagement\\EmpReManagement.csproj|c:\\users\\user\\desktop\\asp dotnet core mvc\\just pick and learn\\empremanagement\\empremanagement\\views\\department\\printdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3245AACD-3B83-4A95-8F02-45362AB29BC2}|EmpReManagement\\EmpReManagement.csproj|solutionrelative:empremanagement\\views\\department\\printdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3245AACD-3B83-4A95-8F02-45362AB29BC2}|EmpReManagement\\EmpReManagement.csproj|c:\\users\\user\\desktop\\asp dotnet core mvc\\just pick and learn\\empremanagement\\empremanagement\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3245AACD-3B83-4A95-8F02-45362AB29BC2}|EmpReManagement\\EmpReManagement.csproj|solutionrelative:empremanagement\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3245AACD-3B83-4A95-8F02-45362AB29BC2}|EmpReManagement\\EmpReManagement.csproj|c:\\users\\user\\desktop\\asp dotnet core mvc\\just pick and learn\\empremanagement\\empremanagement\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3245AACD-3B83-4A95-8F02-45362AB29BC2}|EmpReManagement\\EmpReManagement.csproj|solutionrelative:empremanagement\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3245AACD-3B83-4A95-8F02-45362AB29BC2}|EmpReManagement\\EmpReManagement.csproj|c:\\users\\user\\desktop\\asp dotnet core mvc\\just pick and learn\\empremanagement\\empremanagement\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3245AACD-3B83-4A95-8F02-45362AB29BC2}|EmpReManagement\\EmpReManagement.csproj|solutionrelative:empremanagement\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3245AACD-3B83-4A95-8F02-45362AB29BC2}|EmpReManagement\\EmpReManagement.csproj|c:\\users\\user\\desktop\\asp dotnet core mvc\\just pick and learn\\empremanagement\\empremanagement\\controllers\\importemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3245AACD-3B83-4A95-8F02-45362AB29BC2}|EmpReManagement\\EmpReManagement.csproj|solutionrelative:empremanagement\\controllers\\importemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,53 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PrintDepartment.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\Views\\Department\\PrintDepartment.cshtml",
-              "RelativeDocumentMoniker": "EmpReManagement\\Views\\Department\\PrintDepartment.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\Views\\Department\\PrintDepartment.cshtml",
-              "RelativeToolTip": "EmpReManagement\\Views\\Department\\PrintDepartment.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T08:58:56.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "EmpReManagement\\Views\\Employee\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "EmpReManagement\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAHgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T16:45:49.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "EmpReManagement\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "EmpReManagement\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAP8AAAAAAAAAAAAqwBABAAA/AAAAAAAAAA==",
+              "Title": "ImportEmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\Controllers\\ImportEmployeeController.cs",
+              "RelativeDocumentMoniker": "EmpReManagement\\Controllers\\ImportEmployeeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\Controllers\\ImportEmployeeController.cs",
+              "RelativeToolTip": "EmpReManagement\\Controllers\\ImportEmployeeController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T15:46:20.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\Views\\Department\\Index.cshtml",
-              "RelativeDocumentMoniker": "EmpReManagement\\Views\\Department\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "EmpReManagement\\Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T15:28:50.98Z",
+              "WhenOpened": "2024-11-03T16:34:35.219Z",
               "EditorCaption": ""
             }
           ]

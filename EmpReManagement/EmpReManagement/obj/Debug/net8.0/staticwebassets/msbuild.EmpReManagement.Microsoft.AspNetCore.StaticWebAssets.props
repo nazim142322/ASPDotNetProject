@@ -48,6 +48,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\EmpImages\27d8b882-127f-4f68-bbf3-f4b40165a314_6.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\EmpImages\35b1aca7-66b6-4ed2-85aa-b86894ed9f5b_3.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>EmpReManagement</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EmpReManagement</BasePath>
+      <RelativePath>EmpImages/35b1aca7-66b6-4ed2-85aa-b86894ed9f5b_3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\EmpImages\35b1aca7-66b6-4ed2-85aa-b86894ed9f5b_3.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\EmpImages\3aacc5be-4041-427a-8323-dd1e3d3d1507_7.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>EmpReManagement</SourceId>

@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Import Department";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h6>Please select Excel file</h6>
+            <form asp-controller="ImportDepartment" asp-action="ImportDepartment" method="post" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label class="form-label">Select File</label>
+                    <input type="file" class="form-control" name="DeptExlFile" autofocus accept=".xls, .xlsx, .csv " required />
+                </div>                
+                <div>
+                    <input type="submit" value="Upload" class="btn btn-primary btn-sm" />
+
+                </div>
+                
+            </form>
+        </div>
+
+    </div>
+
+</div>

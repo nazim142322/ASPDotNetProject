@@ -1,7 +1,9 @@
 ﻿using EmpReManagement.Data;
+using EmpReManagement.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OfficeOpenXml;
+using System.IO.Packaging;
 
 namespace EmpReManagement.Controllers
 {
@@ -12,56 +14,57 @@ namespace EmpReManagement.Controllers
         public ImportDepartmentController(AppDbContext dbContext)
         {
             this.dbContext = dbContext;
-        }
-        public IActionResult Index()
-        {
-            return View();
-        }
-
+        }     
 
         public async Task<IActionResult> ImportDepartment()
         {
             //var result = await dbContext.Departments.Include(d => d.Employees).ToListAsync();
             return View();
         }
+
         [HttpPost]
         public async Task <IActionResult> ImportDepartment(IFormFile DeptExlFile)
         {
-            if (DeptExlFile == null || DeptExlFile.Length == 0)
-                return BadRequest("No file uploaded");
-
-            ExcelPackage.LicenseContext = LicenseContext.NonCommercial; // Set the license context that you’re using EPPlus under a non-commercial license 
-            var departments = new List<Dictionary<string, string>>();
-
-            using (var stream = new MemoryStream())
+            if(DeptExlFile==null && DeptExlFile.Length==0)
             {
-                await DeptExlFile.CopyToAsync(stream);
-                using (var package = new ExcelPackage(stream))
+                TempData["DeptImportError"] = "File could not get uploaded";
+                return View();
+            }
+            var extension = Path.GetExtension(DeptExlFile.FileName).ToLowerInvariant();
+          
+            if(extension != ".xls" && extension != ".xlsx")
+            {
+               TempData["DeptImportError"] = "Please select excel file such as '.xls' or '.xlsx'";
+                return View();
+            }
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+            // Set the license context that you’re using EPPlus under a non-commercial license context.
+
+            var departments = new List<Department>();
+
+            using (var stream = new MemoryStream())//1.	Creates a temporary "file" in-memory or in-memoryfile.
+            {
+                DeptExlFile.CopyTo(stream);// copy uploaded file data into temporary in-memory file
+
+                using (var package = new ExcelPackage(stream))// Load Excel data into package
                 {
-                    var worksheet = package.Workbook.Worksheets[0]; // Access the first worksheet
-                    var rowCount = worksheet.Dimension.Rows;
-                    var colCount = worksheet.Dimension.Columns;
-
-                    // Assuming first row contains headers
-                    var headers = new List<string>();
-                    for (int col = 1; col <= colCount; col++)
-                    {
-                        headers.Add(worksheet.Cells[1, col].Text);
-                    }
-
-                    // Read rows and convert to dictionary
+                    ExcelWorksheet worksheet = package.Workbook.Worksheets[0];//creating a variable worksheet that refers to the first worksheet in the Excel file, to read or manipulate data in that sheet.
+                    int rowCount = worksheet.Dimension.Rows;//how many rows contain data, including any headers or actual values
                     for (int row = 2; row <= rowCount; row++)
                     {
-                        var department = new Dictionary<string, string>();
-                        for (int col = 1; col <= colCount; col++)
+                        departments.Add(new Department
                         {
-                            department[headers[col - 1]] = worksheet.Cells[row, col].Text;
-                        }
-                        departments.Add(department);
+                            Name = worksheet.Cells[row, 1].Text.Trim()//get data from Cell which has row2 and col1
+                        });
                     }
                 }
+
             }
-            return Json(departments);
+
+            //return Json(new {Name = DeptExlFile.FileName, Size = DeptExlFile.Length, ext=extension});
+           return Json(departments);
         }
     }
 }
+
+

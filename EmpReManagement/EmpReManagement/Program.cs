@@ -2,6 +2,7 @@ using EmpReManagement.Data;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using EmpReManagement.MapperProfiler;
+using EmpReManagement.Services;
 
 
 
@@ -13,6 +14,9 @@ builder.Services.AddControllersWithViews();
 //Register DbContext
 var connectionString = builder.Configuration.GetConnectionString("AEmpMngtcs");
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
+
+builder.Services.AddTransient<EmailService>();
+
 
 // Add AutoMapper
 var mapperConfiguration = new MapperConfiguration(cgf =>

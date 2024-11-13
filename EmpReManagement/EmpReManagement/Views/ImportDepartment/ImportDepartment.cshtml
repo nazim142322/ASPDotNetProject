@@ -4,7 +4,8 @@
 }
 <div class="container">
     <div class="row">
-        <div class="col-md-6">            
+        <div class="col-md-6">
+           <partial name="_ImportExclNotification" />         
             <form asp-controller="ImportDepartment" asp-action="ImportDepartment" method="post" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label class="form-label">Select Excel File</label>
@@ -21,8 +22,35 @@
                         <p class="text-danger">@TempData["DeptImportError"]</p>
                     }
                 }
-            </div>
-            
+            </div>            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            @{
+                if (ViewBag.Departments != null)
+                {
+                    <table class="table w-50">
+                           <thead>
+                                <th>#</th>
+                                <th>Department Name</th>
+                            </thead>
+                    <tboddy>
+                        @{      var srNo = 1;
+                                foreach (var dept in ViewBag.Departments)
+                                {
+                                   <tr> <td>@srNo</td>
+                                        <td>@dept.Name</td>
+                                   </tr>
+                                   srNo++;
+                                }
+                            }
+                        </tboddy>
+                   </table>
+                }
+            }
+
+
         </div>
 
     </div>

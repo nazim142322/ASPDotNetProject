@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\ASP Dotnet Core MVC\Just Pick and Learn\EmpReManagement\EmpReManagement
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/user/Desktop/ASP Dotnet Core MVC/Just Pick and Learn/EmpReManagement/EmpReManagement/Views/ContactUs/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFVzXENvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/user/Desktop/ASP Dotnet Core MVC/Just Pick and Learn/EmpReManagement/EmpReManagement/Views/Department/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -92,6 +96,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/user/Desktop/ASP Dotnet Core MVC/Just Pick and Learn/EmpReManagement/EmpReManagement/Views/Shared/_DataTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXRhVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/ASP Dotnet Core MVC/Just Pick and Learn/EmpReManagement/EmpReManagement/Views/Shared/_ImportExclNotification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JbXBvcnRFeGNsTm90aWZpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Desktop/ASP Dotnet Core MVC/Just Pick and Learn/EmpReManagement/EmpReManagement/Views/Shared/_Notification.cshtml]

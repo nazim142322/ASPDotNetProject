@@ -54,12 +54,12 @@
                                 <i class="fs-4 bi bi-people-fill"></i><span class="ms-1 d-none d-sm-inline">Employees</span>
                             </a>
                             <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                                <li class="w-100">
-                                    <a asp-controller="Employee" asp-action="Index" class="nav-link px-0 text-white">Employee List</a>
-                                </li>
                                 <li>
                                     <a asp-controller="Employee" asp-action="Add" class="nav-link px-0 text-white"> Add Employee </a>
                                 </li>
+                                <li class="w-100">
+                                    <a asp-controller="Employee" asp-action="Index" class="nav-link px-0 text-white">Employee List</a>
+                                </li>                             
                                 <li>
                                     <a asp-controller="ImportEmployee" asp-action="ImportEmployee" class="nav-link px-0 text-white"> Import Employee </a>
                                 </li>
@@ -70,17 +70,27 @@
                                 <i class="fs-4 bi bi-building-fill-gear"></i><span class="ms-1 d-none d-sm-inline">Department</span>
                             </a>
                             <ul class="collapse show nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                                <li class="w-100">
-                                    <a asp-controller="Department" asp-action="Index" class="nav-link px-0 text-white">Dept List</a>
-                                </li>
                                 <li>
                                     <a asp-controller="Department" asp-action="Add" class="nav-link px-0 text-white"> Add Department </a>
                                 </li>
+                                <li class="w-100">
+                                    <a asp-controller="Department" asp-action="Index" class="nav-link px-0 text-white">Department List</a>
+                                </li>                             
                                 <li>
                                     <a asp-controller="ImportDepartment" asp-action="ImportDepartment" class="nav-link px-0 text-white"> Import Department </a>
                                 </li>
                                 <li>
                                     <a asp-controller="Department" asp-action="DepartmentConsolidateReport" class="nav-link px-0 text-white"> Consolidated Report </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white">
+                                <span class="ms-1 d-none d-sm-inline"><i class="fs-4 bi bi-envelope"></i> Contact Us</span>
+                            </a>
+                            <ul class="collapse show nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                                <li>
+                                    <a asp-controller="ContactUs" asp-action="Contact" class="nav-link px-0 text-white">Contact</a>
                                 </li>
                             </ul>
                         </li>

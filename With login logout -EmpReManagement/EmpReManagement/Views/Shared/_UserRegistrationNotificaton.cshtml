@@ -1,0 +1,23 @@
+﻿<!--for login failed Notification -->
+@{
+    if (TempData["LoginMessage"] != null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.warning('@TempData["LoginMessage"]')
+        </script>
+    }
+}
+
+<!--for User Registration Notification -->
+@{
+    if (TempData["RegistrationMessage"] != null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.success('@TempData["RegistrationMessage"]')
+        </script>
+    }
+}

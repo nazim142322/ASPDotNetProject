@@ -1,0 +1,82 @@
+﻿@model IEnumerable<EmpReManagement.ViewModel.EmployeeDetailsVeiwModel>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/print.css" asp-append-version="true" />
+    <title>Department Consolidated Report</title>
+    <style>
+      table{
+         width:100%;
+         border-collapse:collapse;  
+          }
+      th,td{
+          border:1px solid #ddd;
+          padding:8px;
+          text-align:left;
+          }
+          th{
+              background-color:#f2f2f2
+          }
+        h3{
+            text-align:center;
+          }
+     </style>
+</head>
+<body>
+    <h3>Employee Consolidated Report</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>EmpId</th>
+                <th>Full Name</th>
+                <th>DOB</th>
+                <th>Gender</th>
+                <th>Email</th>
+                <th>Phone No</th>
+                <th>Address</th>
+                <th>Status</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int sr = 1;
+                foreach(var employee in Model)
+                {
+                    <tr>
+                        <td>@sr</td>
+                        <td>@employee.EmployeeId</td>
+                        <td>@employee.FullName</td>
+                        <td>@employee.DateOfBirth</td>
+                        <td>@employee.Gender</td>
+                        <td>@employee.Email</td>
+                        <td>@employee.PhoneNumber</td>
+                        <td>@employee.Address</td>
+                        <td>@(employee.IsActive?"Active":"Not Active")</td>
+                        <td>@employee.DepartmentName</td>
+                    </tr>
+                    sr++;
+                }
+               
+            }
+        </tbody>
+        
+    </table>
+    <script>
+        window.onload=function()
+        {
+        window.print();
+        // window.onafterprint = function(){
+        //     window.close();
+        // }
+        }
+    </script>
+</body>
+</html>
+

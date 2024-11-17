@@ -1,0 +1,9 @@
+﻿
+@media print{
+    span{
+        display:none;
+    }
+    button{
+        display:none;
+    }
+}

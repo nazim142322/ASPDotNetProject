@@ -1,0 +1,79 @@
+﻿@model EmpReManagement.ViewModel.DepartementEmpViewModel
+<div class="container my-5">
+    <div class="row" id="content">
+        <div class="col-md-8 mx-auto">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h6 class="mb-0">Department Details</h6>
+                </div>
+                <div class="card-body">
+                    <!-- Department Info -->
+                    <p class="card-title mb-3 fw-bold">Department Name: @Model.DepartmentName</p>
+                    <p><strong>Department ID:</strong> @Model.DepartmentId</p>
+
+                    <!-- Employees List -->
+                    <h5 class="mt-4">Employees in @Model.DepartmentName</h5>
+                    @{
+                        int sr = 1;
+                        if (Model.Employees != null && Model.Employees.Count > 0)
+                        {
+                                    <ul class="list-group">
+                                        @foreach (var employee in Model.Employees)
+                                {
+                                            <a asp-controller="Employee" asp-action="EmpDetails" asp-route-empId="@employee.EmployeeId" class="text-decoration-none">
+                                            <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                                <span>@sr- @employee.FullName</span>
+                                                <span class="badge @(employee.IsActive ? "bg-success" : "bg-danger")"> @(employee.IsActive? "Active":"Not Active")</span>
+                                            </li>                                    
+                                            </a>                                   
+                                    sr++;
+                                }
+                                    </ul>
+                        }
+                        else
+                        {
+                                    <p class="text-muted">No employees found in this department.</p>
+                        }
+                    }                    
+                </div>
+                <div class="card-footer text-end" id="noPrint">
+                    @* <a asp-asp-controller="Department" asp-action="Index" class="btn btn-secondary btn-sm">Back to Departments</a> *@
+                    <a asp-controller="Department" asp-action="Index" class="btn btn-secondary btn-sm">Back to Departments</a>
+                    <button class="btn btn-secondary btn-sm" onclick="myPrint()" id="dptPrint"><i class="bi bi-printer"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+<script>
+    var btn = document.getElementById('dptPrint');
+    var noPrint = document.getElementById('noPrint');
+    btn.addEventListener('click', function () {
+
+        noPrint.style.display= "none";
+         
+        // URL to open the partial view or razor view
+        const popupUrl = '@Url.Action("PopupContent", "Department")';
+
+        // Get the content of the div you want to print
+        let content = document.getElementById('content').outerHTML;
+
+        // Open a new popup window
+        let printWin = window.open(popupUrl, '_blank', 'width=800,height=1000');
+
+        // Once the popup window is loaded
+        printWin.onload = function () {
+
+            // Write the parent window content into the popup window's body
+            printWin.document.body.innerHTML = content;
+            printWin.print();
+
+            // Optionally close the window after printing
+             printWin.onafterprint = function () {
+                    printWin.close();
+            };
+         
+        }        
+        noPrint.style.display = "block";
+    });
+</script>

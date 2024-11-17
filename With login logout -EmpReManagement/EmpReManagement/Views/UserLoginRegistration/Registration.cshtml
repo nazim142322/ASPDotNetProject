@@ -1,0 +1,67 @@
+﻿@model EmpReManagement.ViewModel.UserViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!--toastr-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+</head>
+<body>
+    <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center gap-5 p-3">
+
+            <!-- Image Section -->
+            <div class="col-md-5 mb-4 mb-md-0 text-center">
+                <img src="@Url.Content("~/projectimages/login.jpg")" alt="Login" class="img-fluid rounded" />
+            </div>
+
+            <!-- Login Form Section -->
+            <div class="col-md-5 border shadow-sm p-4 rounded bg-white">
+                @* <partial name="_UserRegistrationNotificaton"/> *@
+
+                <h4 class="mb-3 text-center">Registration</h4>
+                <form asp-controller="UserLoginRegistration" asp-action="Registration" method="post">
+                    <div class="mb-2">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" id="Name" class="form-control"/>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="mb-2">
+                        <label asp-for="PhoneNo" class="form-label"></label>
+                        <input asp-for="PhoneNo" id="Phone" class="form-control"/>
+                        <span asp-validation-for="PhoneNo" class="text-danger"></span>
+                    </div>
+                    <div class="mb-2">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" id="Email" class="form-control"/>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="mb-2">
+                        <label asp-for="Password" class="form-label">Password</label>
+                        <input asp-for="Password" id="Password" class="form-control"/>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="submit" class="btn btn-primary btn-sm w-50">Register</button>
+                    </div>
+                </form>
+                <div class="text-center mt-2">
+                    <a asp-controller="UserLoginRegistration" asp-action="Login" class="text-decoration-none">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>    
+</body>
+</html>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

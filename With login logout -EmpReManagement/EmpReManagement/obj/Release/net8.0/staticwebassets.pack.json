@@ -1,0 +1,325 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\EmpReManagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EmpReManagement.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\015b2497-c8a9-4d78-b224-5260376989f7_6.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\015b2497-c8a9-4d78-b224-5260376989f7_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\03646fbf-08e3-488f-b014-60906ee1473c_1.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\03646fbf-08e3-488f-b014-60906ee1473c_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\1e720cee-bdad-420b-ad52-34842c022e40_6.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\1e720cee-bdad-420b-ad52-34842c022e40_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\27d8b882-127f-4f68-bbf3-f4b40165a314_6.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\27d8b882-127f-4f68-bbf3-f4b40165a314_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\35b1aca7-66b6-4ed2-85aa-b86894ed9f5b_3.png",
+      "PackagePath": "staticwebassets\\EmpImages\\35b1aca7-66b6-4ed2-85aa-b86894ed9f5b_3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\3aacc5be-4041-427a-8323-dd1e3d3d1507_7.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\3aacc5be-4041-427a-8323-dd1e3d3d1507_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\5df705ee-5473-4eff-9d72-22858576e225_4.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\5df705ee-5473-4eff-9d72-22858576e225_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\75671723-f860-4256-be20-b2ad563ccf12_6.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\75671723-f860-4256-be20-b2ad563ccf12_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\7fb0beb7-03b8-4dfd-9a13-dd39fe288e5b_5.png",
+      "PackagePath": "staticwebassets\\EmpImages\\7fb0beb7-03b8-4dfd-9a13-dd39fe288e5b_5.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\855ea09c-5946-4ced-b9f9-fa76ca7bc33d_6.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\855ea09c-5946-4ced-b9f9-fa76ca7bc33d_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\9ba03b3b-e63c-48e0-90fc-b7818649cb4d_7.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\9ba03b3b-e63c-48e0-90fc-b7818649cb4d_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\9c83c009-4962-4123-b4ff-2541fad7418d_6.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\9c83c009-4962-4123-b4ff-2541fad7418d_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\b5ea5c53-37a2-4e51-b2be-823f87e191b6_6.jpg",
+      "PackagePath": "staticwebassets\\EmpImages\\b5ea5c53-37a2-4e51-b2be-823f87e191b6_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\f754c98f-bb35-4a49-a3b4-0b6498e131bc_3.png",
+      "PackagePath": "staticwebassets\\EmpImages\\f754c98f-bb35-4a49-a3b4-0b6498e131bc_3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\ProjectImages\\Login.jpg",
+      "PackagePath": "staticwebassets\\ProjectImages\\Login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\css\\print.css",
+      "PackagePath": "staticwebassets\\css\\print.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.EmpReManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.EmpReManagement.props",
+      "PackagePath": "build\\EmpReManagement.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EmpReManagement.props",
+      "PackagePath": "buildMultiTargeting\\EmpReManagement.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.EmpReManagement.props",
+      "PackagePath": "buildTransitive\\EmpReManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,49 @@
+﻿@model EmpReManagement.ViewModel.DepartmentViewModel
+@{
+    ViewData["Title"] = "Add Department";
+}
+<style>
+    /* Remove outline and box-shadow for all input elements */
+    input.form-control:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }   
+    .col-md-6 {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-top: 6px solid blue !important;
+        border-radius:12px 12px 12px 12px;;
+    }
+</style>
+
+<div class="container p-4 h-100">
+    <div class="row p-4">
+        <div class="col-md-12 ">
+           
+        </div>
+    </div>
+    <div class="row p-4">
+        <div class="col-md-6 mx-auto bg-white p-4">
+            <h5 class="text-decoration-underline pb-4" style="text-underline-offset: 5px;">Add New Department</h5>
+            <form asp-controller="Department" asp-action="Add" method="post" class="mb-3">
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label fw-bold"></label>
+                    <input asp-for="Name" class="form-control" autofocus />
+                    <span asp-validation-for="Name" class="text-danger d-block" style="font-size:14px;"></span>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-success w-50">Save</button>
+                </div>
+            </form>
+           <partial name="_Notification"/>
+        </div>
+    </div>
+</div>
+@* @section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+} *@
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

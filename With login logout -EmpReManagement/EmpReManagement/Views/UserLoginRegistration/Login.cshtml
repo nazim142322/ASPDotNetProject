@@ -1,0 +1,53 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!--toastr-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <title>Login</title>
+</head>
+<body>     
+    <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center gap-5 p-3">
+
+            <!-- Image Section -->
+            <div class="col-md-5 mb-4 mb-md-0 text-center">
+                <img src="@Url.Content("~/projectimages/login.jpg")" alt="Login" class="img-fluid rounded" />
+            </div>
+
+            <!-- Login Form Section -->
+            <div class="col-md-5 border shadow-sm p-4 rounded bg-white">
+               @*  @if (TempData["LoginMessage"] != null)
+                {
+                    <p class="text-danger">@TempData["LoginMessage"]</p>
+                } *@
+                <partial name = "_UserRegistrationNotificaton" />
+                <h4 class="mb-3 text-center">Login</h4>
+                <form asp-controller="UserLoginRegistration" asp-action="Login" method="post">
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Email Address</label>
+                        <input type="email" id="Email" name="Email" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="Password" class="form-label">Password</label>
+                        <input type="password" id="Password" name="Password" class="form-control" required />
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-sm w-50">Login</button>
+                    </div>
+                </form>
+                <div class="mt-3">
+                    <a asp-controller="UserLoginRegistration" asp-action="Registration" class="text-decoration-none">Not Register Yet? Click here to SignUp</a>
+                </div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>

@@ -1,0 +1,130 @@
+﻿
+<!--for inster employee and department data -->
+@{
+    if (TempData["insertSuccess"] != null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>       
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.success('@TempData["insertSuccess"]')
+        </script>        
+    }
+}
+<!--for image upload extension error -->
+@{
+    if(TempData["extension_error"]!= null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.warning('@TempData["extension_error"]')
+        </script>
+    }
+}
+<!--for image upload Size error -->
+@{
+    if (TempData["UploadFileSize_Eroor"] != null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.warning('@TempData["UploadFileSize_Eroor"]')
+        </script>
+    }
+}
+<!--for image upload error -->
+@{
+    if (TempData["PhotoUploadError"] != null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.warning('@TempData["PhotoUploadError"]')
+        </script>
+    }
+}
+<!--for image upload record -->
+@{
+    if (TempData["UpdateSuccess"] != null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.success('@TempData["UpdateSuccess"]')
+        </script>
+    }
+}
+<!--for employee  record delete -->
+@{
+    if (TempData["DeleteEmpSuccess"] != null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.success('@TempData["DeleteEmpSuccess"]')
+        </script>
+    }
+}
+<!-- Department update-->
+@{
+    if (TempData["editSuccess"] != null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.success('@TempData["editSuccess"]')
+        </script>
+    }
+}
+<!-- if department already exits-->
+@{
+    if (TempData["duplicateDepartment"] != null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.warning('@TempData["duplicateDepartment"]')
+        </script>
+    }
+}
+<!-- if the department has any associated employees-->
+@{
+    if (TempData["DeleteError"] != null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.warning('@TempData["DeleteError"]')
+        </script>
+    }
+}
+<!-- if department delete-->
+@{
+    if (TempData["DeleteSucces"] != null)
+    {
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script type="text/javascript">
+            toastr.success('@TempData["DeleteSucces"]')
+        </script>
+    }
+}
+
+@{
+    if (TempData["insertError"] != null)
+    {
+         <div class="alert alert-success" style="padding:.5rem">
+            <strong>Success! </strong> @TempData["insertError"]
+        </div>
+
+    }
+}
+@* @{
+    if (TempData["insertSuccess"] != null)
+    {
+        <div class="alert alert-success" style="padding:.5rem">
+            <strong>Success! </strong> @TempData["insertSuccess"]
+        </div>
+
+    }
+} *@

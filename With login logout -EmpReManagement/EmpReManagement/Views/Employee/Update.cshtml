@@ -1,0 +1,111 @@
+﻿@model EmpReManagement.ViewModel.EmployeeViewModel
+@{
+    ViewData["Title"] = "Add";
+}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <!-- Update Employee Data Card -->
+            <div class="card" style="border-radius: 12px 12px 0 0; overflow:hidden">
+                <div class="card-header text-center bg-primary text-white">
+                    <h6>Update Employee Data</h6>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Employee" asp-action="Update" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <!-- Image Column -->
+                            <div class="col-md-4 pb-3 text-center">
+                                <!-- Placeholder for Employee Image -->
+                                <img src="~/EmpImages/@Model.ImagePath" class="img-fluid rounded" alt="Employee Image" style="width:150px">                                
+                            </div>                          
+                            <!-- Form Column -->
+                            <div class="col-md-8">
+                                <div class="mb-3">
+                                    <label asp-for="EmployeeId" class="form-label fw-bold"></label>
+                                    <input asp-for="EmployeeId" class="form-control" readonly />
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="FirstName" class="form-label fw-bold"></label>
+                                    <input asp-for="FirstName" class="form-control" />
+                                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="LastName" class="form-label fw-bold"></label>
+                                    <input asp-for="LastName" class="form-control" />
+                                    <span asp-validation-for="LastName" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="DateOfBirth" class="form-label fw-bold"></label>
+                                    <input asp-for="DateOfBirth" class="form-control" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold">Gender</label>
+                                    <div class="d-flex gap-4">
+                                        <div>
+                                            <input type="radio" asp-for="Gender" value="Male" class="form-check-input" id="Male">
+                                            <label class="form-check-label" for="Male">Male</label>
+                                            <span asp-validation-for="Gender" class="d-block text-danger"></span>
+                                        </div>
+                                        <div class="form-check px-4">
+                                            <input type="radio" asp-for="Gender" value="Female" class="form-check-input" id="Female">
+                                            <label class="form-check-label" for="Female">Female</label>
+                                            <span asp-validation-for="Gender" class="d-block text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Email" class="form-label fw-bold"></label>
+                                    <input asp-for="Email" class="form-control" />
+                                    <span asp-validation-for="Email" class="d-block text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="PhoneNumber" class="form-label fw-bold"></label>
+                                    <input asp-for="PhoneNumber" class="form-control" />
+                                    <span asp-validation-for="PhoneNumber" class="d-block text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Address" class="form-label fw-bold"></label>
+                                    <textarea asp-for="Address" class="form-control" rows="3"></textarea>
+                                     @* <input asp-for="Address" class="form-control" /> *@
+                                    <span asp-validation-for="Address" class="d-block text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="DepartmentId" class="form-label fw-bold"></label>
+                                    <select asp-for="DepartmentId" class="form-control" asp-items="@ViewBag.departments">
+                                        <option value="">Select Department</option>
+                                    </select>
+                                    <span asp-validation-for="DepartmentId" class="d-block text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input type="checkbox" asp-for="IsActive" class="form-check-input" />
+                                        <label asp-for="IsActive" class="form-check-label fw-bold">Active Status</label>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Photo" class="form-label fw-bold"></label>
+                                    <input asp-for="Photo" class="form-control" data-val="false" />
+                                    <span asp-validation-for="Photo" class="d-block text-danger"></span>
+                                </div>
+                                <div class="text-center">
+                                    <button type="Submit" class="btn btn-primary btn-sm w-100">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            // Exclude image field from validation
+            $("form").validate({
+                ignore: ":input[type='file']"
+            });
+        });
+    </script>
+}

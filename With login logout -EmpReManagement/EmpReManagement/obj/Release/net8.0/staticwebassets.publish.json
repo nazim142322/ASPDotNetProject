@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EGecRup05xB+4okrxmZ58YjwhCRBiHRuacEIiuIJkZU=",
+  "Hash": "XUPuGCfoWQJ9IBAxA3nSSCixiOJemoC2j7J31a4n/Dg=",
   "Source": "EmpReManagement",
   "BasePath": "_content/EmpReManagement",
   "Mode": "Default",
@@ -226,6 +226,25 @@
       "OriginalItemSpec": "wwwroot\\EmpImages\\5df705ee-5473-4eff-9d72-22858576e225_4.jpg"
     },
     {
+      "Identity": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\6de4ffac-5d33-4886-afad-04354237a401_6.jpg",
+      "SourceId": "EmpReManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\",
+      "BasePath": "_content/EmpReManagement",
+      "RelativePath": "EmpImages/6de4ffac-5d33-4886-afad-04354237a401_6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\EmpImages\\6de4ffac-5d33-4886-afad-04354237a401_6.jpg"
+    },
+    {
       "Identity": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\75671723-f860-4256-be20-b2ad563ccf12_6.jpg",
       "SourceId": "EmpReManagement",
       "SourceType": "Discovered",
@@ -338,6 +357,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\EmpImages\\b5ea5c53-37a2-4e51-b2be-823f87e191b6_6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\d953dcf0-5da2-4269-8fec-12a83f77a39b_6.jpg",
+      "SourceId": "EmpReManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\",
+      "BasePath": "_content/EmpReManagement",
+      "RelativePath": "EmpImages/d953dcf0-5da2-4269-8fec-12a83f77a39b_6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\EmpImages\\d953dcf0-5da2-4269-8fec-12a83f77a39b_6.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\ASP Dotnet Core MVC\\Just Pick and Learn\\EmpReManagement\\EmpReManagement\\wwwroot\\EmpImages\\f754c98f-bb35-4a49-a3b4-0b6498e131bc_3.png",

@@ -35,9 +35,10 @@ namespace EmpReManagement.ViewModel
         [EmailAddress(ErrorMessage = "Invalid email address")]
         public string Email { get; set; }
 
+        [Required(ErrorMessage = "Phone number is required")]        
         [DataType(DataType.PhoneNumber)]
         [Display(Name = "Phone No")]
-        [Required(ErrorMessage = "Phone number is required")]
+        [RegularExpression(@"^\d+$", ErrorMessage = "Phone number must contain only numbers")]
         public string PhoneNumber { get; set; }
 
         [Required(ErrorMessage = "Address is required")]

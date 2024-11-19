@@ -127,10 +127,10 @@ namespace EmpReManagement.Controllers
             var data = dbContext.Departments.OrderBy(d=>d.Name).ToList();
             if(data!=null)
             {
-                int count = 1;
+               
                 foreach (var item in data)
                 {
-                   empModel.Departments.Add(new SelectListItem { Value = item.DepartmentId.ToString(), Text = $"{count++}. {item.Name}" });
+                   empModel.Departments.Add(new SelectListItem { Value = item.DepartmentId.ToString(), Text =  item.Name });
                 }
                 ViewBag.departments = empModel.Departments;
             }            
@@ -141,20 +141,30 @@ namespace EmpReManagement.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(EmployeeViewModel emp)
         {
-            if (ModelState.IsValid == false)
+            // Re-populate the dropdown list
+            var departmentList = await dbContext.Departments
+                                                 .Select(d => new SelectListItem
+                                                 {
+                                                     Value = d.DepartmentId.ToString(),
+                                                     Text = d.Name,
+                                                     Selected = emp.DepartmentId == d.DepartmentId // Retain selected value
+                                                 })
+                                                 .ToListAsync();
+            ViewBag.departments = departmentList;
+
+            if (!ModelState.IsValid)
             {
                 // Re-populate the ViewBag to ensure dropdown options are still available
-                EmployeeViewModel empModel = new EmployeeViewModel
-                {
-                    Departments = new List<SelectListItem>()
-                };
-                var data = dbContext.Departments.ToList();
-                foreach (var item in data)
-                {
-                    empModel.Departments.Add(new SelectListItem { Value = item.DepartmentId.ToString(), Text = item.Name });
-                }
-
-                ViewBag.departments = empModel.Departments;
+                //EmployeeViewModel empModel = new EmployeeViewModel
+                //{
+                //    Departments = new List<SelectListItem>()
+                //};
+                //var data = dbContext.Departments.ToList();
+                //foreach (var item in data)
+                //{
+                //    empModel.Departments.Add(new SelectListItem { Value = item.DepartmentId.ToString(), Text = item.Name });
+                //}
+                //ViewBag.departments = empModel.Departments;
                 return View(emp);
             }
 
@@ -186,7 +196,6 @@ namespace EmpReManagement.Controllers
                     TempData["extension_error"] = "Only jpg, png and jpeg images are allowed";
                     return View(emp);
                 }
-
             }
             else
             {
@@ -203,8 +212,7 @@ namespace EmpReManagement.Controllers
                 await dbContext.SaveChangesAsync();
 
                 TempData["insertSuccess"] = "Employee added successfully";
-                return RedirectToAction("Add", "Employee");
-                // return Json(newEmp);            
+                return RedirectToAction("Add", "Employee");                           
         }
 
         //Employee details

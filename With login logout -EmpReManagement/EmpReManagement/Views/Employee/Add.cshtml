@@ -67,7 +67,7 @@
                 </div>
                 <div class="mb-3">
                     <label asp-for="PhoneNumber" class="form-label fw-bold"></label>
-                    <input asp-for="PhoneNumber" class="form-control" />
+                    <input asp-for="PhoneNumber" class="form-control" type="tel" pattern="\d*" maxlength="10" />
                     <span asp-validation-for="PhoneNumber" class=" d-block text-danger"></span>
                 </div>
                 <div class="mb-3">
